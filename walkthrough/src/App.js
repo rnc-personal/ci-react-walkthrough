@@ -10,6 +10,8 @@ import ConditionalClass from './components/ConditionalClass';
 import NestingComponents from './components/NestingComponents';
 import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 import MethodsAsPropsChild from './components/MethodsAsPropsChild';
+import ListRendering from './components/ListRendering';
+import ListRenderingWithProps from './components/Book';
 
 function App() {
   return (
@@ -32,6 +34,13 @@ function App() {
       <hr />
       <h2>Passing Props From Parent to Child</h2>
       <MethodsAsPropsParent/>
+      <hr/>
+      <h2>Passing Props From Child to Parent</h2>
+      <MethodsAsPropsChild/>
+      <hr />
+      <h2>List Rendering</h2>
+      <ListRendering />
+      <hr />
     </div>
   );
 }
