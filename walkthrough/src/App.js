@@ -14,6 +14,7 @@ import ListRendering from './components/ListRendering';
 import ListRenderingWithProps from './components/Book';
 import LifeCyclesCDU from './components/LifeCyclesCDU';
 import LifeCyclesCDM from './components/LifeCyclesCDM';
+import ComponentWillUnmount from './components/ComponentWillUnmount';
 
 function App() {
   return (

@@ -19,6 +19,8 @@ export class LifeCyclesCWUTracker extends Component {
   componentDidMount() {
     window.addEventListener('mousemove', this.trackMouse);
   }
+  
+  // Ensures that when the component unmounts, the event listener is removed
   componentWillUnmount() {
       console.log('unmounting')
       window.removeEventListener('mousemove', this.trackMouse)
