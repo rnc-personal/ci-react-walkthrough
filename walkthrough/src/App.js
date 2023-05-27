@@ -13,6 +13,7 @@ import MethodsAsPropsChild from './components/MethodsAsPropsChild';
 import ListRendering from './components/ListRendering';
 import ListRenderingWithProps from './components/Book';
 import LifeCyclesCDU from './components/LifeCyclesCDU';
+import LifeCyclesCDM from './components/LifeCyclesCDM';
 
 function App() {
   return (
@@ -43,7 +44,10 @@ function App() {
       <ListRendering />
       <hr />
       <h2>LifeCycles</h2>
+      <p>Component Did Update</p>
       <LifeCyclesCDU />
+      <p>Component Did Mount</p>
+      <LifeCyclesCDM />
     </div>
   );
 }
