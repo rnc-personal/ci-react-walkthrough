@@ -48,6 +48,9 @@ function App() {
       <LifeCyclesCDU />
       <p>Component Did Mount</p>
       <LifeCyclesCDM />
+      <hr />
+      <p>Component Will Unmount</p>
+      <ComponentWillUnmount/>
     </div>
   );
 }
