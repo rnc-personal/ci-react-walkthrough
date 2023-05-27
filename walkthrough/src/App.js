@@ -12,6 +12,7 @@ import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 import MethodsAsPropsChild from './components/MethodsAsPropsChild';
 import ListRendering from './components/ListRendering';
 import ListRenderingWithProps from './components/Book';
+import LifeCyclesCDU from './components/LifeCyclesCDU';
 
 function App() {
   return (
@@ -41,6 +42,8 @@ function App() {
       <h2>List Rendering</h2>
       <ListRendering />
       <hr />
+      <h2>LifeCycles</h2>
+      <LifeCyclesCDU />
     </div>
   );
 }
