@@ -15,6 +15,9 @@ import ListRenderingWithProps from './components/Book';
 import LifeCyclesCDU from './components/LifeCyclesCDU';
 import LifeCyclesCDM from './components/LifeCyclesCDM';
 import ComponentWillUnmount from './components/ComponentWillUnmount';
+import ControlledForm from './components/ControlledForm';
+import UnControlledForm from './components/UnControlledForm';
+import SearchBar from './components/SearchBar';
 
 function App() {
   return (
@@ -52,6 +55,16 @@ function App() {
       <hr />
       <p>Component Will Unmount</p>
       <ComponentWillUnmount/>
+      <hr />
+      <h2>Forms in React</h2>
+      <p>Controlled Form</p>
+      <ControlledForm />
+      <hr />
+      <p>UnControlled Form</p>
+      <UnControlledForm />
+      <hr />
+      <h2>Search</h2>
+      <SearchBar />
     </div>
   );
 }
