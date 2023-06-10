@@ -18,6 +18,8 @@ import ComponentWillUnmount from './components/ComponentWillUnmount';
 import ControlledForm from './components/ControlledForm';
 import UnControlledForm from './components/UnControlledForm';
 import SearchBar from './components/SearchBar';
+import ControlledFormHooks from './components/ControlledFormHooks';
+import UseStateWithArrays from './components/UseStateWithArrays';
 
 function App() {
   return (
@@ -65,6 +67,11 @@ function App() {
       <hr />
       <h2>Search</h2>
       <SearchBar />
+      <hr />
+      <h2>Hooks: UseState</h2>
+      <ControlledFormHooks />
+      <hr />
+      <UseStateWithArrays />
     </div>
   );
 }
