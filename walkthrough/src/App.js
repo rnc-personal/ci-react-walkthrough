@@ -20,11 +20,13 @@ import UnControlledForm from './components/UnControlledForm';
 import SearchBar from './components/SearchBar';
 import ControlledFormHooks from './components/ControlledFormHooks';
 import UseStateWithArrays from './components/UseStateWithArrays';
+import UseStateWithObjects from './components/UseStateWithObjects';
+import UseEffectCounter from './components/UseEffectCounter';
 
 function App() {
   return (
     <div className="App">
-      <h2>Components Basics</h2>
+      {/* <h2>Components Basics</h2>
       <FunctionalGreeting/>
       <FunctionalGreetingProps intro="Hello!" name="Richard"/>
       <StatefulGreeting intro="Hello!"/>
@@ -72,6 +74,11 @@ function App() {
       <ControlledFormHooks />
       <hr />
       <UseStateWithArrays />
+      <hr />
+      <UseStateWithObjects />
+      <hr /> */}
+      <h2>Hooks: useEffect</h2>
+      <UseEffectCounter />
     </div>
   );
 }
