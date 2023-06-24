@@ -24,6 +24,7 @@ import UseStateWithObjects from './components/UseStateWithObjects';
 import UseEffectCounter from './components/UseEffectCounter';
 import HTTPReqClass from './components/HTTPReqClass';
 import HTTPPostClass from './components/HTTPPostClass';
+import HTTPGetFunctional from './components/HTTPGetFunctional';
 
 function App() {
   return (
@@ -82,11 +83,15 @@ function App() {
       <h2>Hooks: useEffect</h2>
       <UseEffectCounter /> */}
       <h2>Data Fetching</h2>
+      {/* <h4>Class Components</h4>
       <p>GET:</p>
       <HTTPReqClass />
       <hr />
       <p>POST:</p>
-      <HTTPPostClass />
+      <HTTPPostClass /> */}
+      <hr />
+      <h4>Functional Components</h4>
+      <HTTPGetFunctional />
     </div>
   );
 }
